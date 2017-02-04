@@ -1,0 +1,43 @@
+ul#tabs {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; }
+  ul#tabs li {
+    display: inline-block;
+	/*background:url(../images/menu_bg.png) repeat;*/
+	background:#424242;
+    padding: 10px 40px;
+    color: #fff;
+    cursor: pointer;
+	border-radius:10px 10px 0 0;
+	font-family: 'Lato-Regular';
+	font-weight:bold;
+	}
+    ul#tabs li:hover {
+      /*background:url(../images/search_bg.png) repeat;*/
+	  background:#fff;
+	  color:#000; }
+    ul#tabs li.active {
+      /*background:url(../images/search_bg.png) repeat;*/
+	  background:#fff;
+	  color:#000000; }
+
+ul#tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  ul#tab li {
+    display: none;
+    padding: 20px;
+	width:85%;
+	margin:0 auto;
+	background:#fff;
+	text-align:center;
+	}
+    ul#tab li.active {
+      display: block; }
+    ul#tab li h2 {
+      font-weight: 400;
+      margin-bottom: 30px;
+      padding-bottom: 5px;
+      border-bottom: solid 5px #32c896; }

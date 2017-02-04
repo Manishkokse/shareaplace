@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>:: Share a Place ::</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="/static/css/_styles.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/style.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/social.css" />
+
+<!--Menu slide -->
+<link rel="stylesheet" href="/static/css/slidebars.min.css">
+<link rel="stylesheet" href="/static/css/slidebars-theme.css">
+<!--Menu slide -->
+<!--tab-->
+<link rel="stylesheet" href="/static/css/tabs.css" />
+
+
+<!--tab-->
+<!--slider-->
+<link rel="stylesheet" href="/static/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="/static/owl-carousel/owl.theme.css"> 
+
+    <link href="/static/css/bootstrap.css" rel="stylesheet" />
+ 
+	<link href="/static/css/login-register.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/static/css/font-awesome.css">
+	
+	<script src="/static/js/jquery.min.1.11.3.js" type="text/javascript"></script>
+	<script src="/static/js/bootstrap.js" type="text/javascript"></script>
+	<script src="/static/js/login-register.js" type="text/javascript"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<!--slider-->
+
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+</head>
+
+<body>
+		
+<div class="container">
+	<div class="topbar" align="center">
+		<div class="mobilemenu">
+			<div class="sb-slidebar sb-left">	
+					<ul class="sb-menu">
+						<li><a href="index.html" target="_self">Home</a></li>
+						<li><a href="about.html" target="_self">About Us</a></li>
+						<li><a href="project.html" target="_self">Projects</a></li>
+						<li><a href="client.html" target="_self">Clients</a></li>
+						<li><a href="testimonial.html" target="_self">Testimonials</a></li>
+						<li><a href="#" target="_self">Press Release</a></li>
+						<li><a href="contact.html" target="_self">Contact us</a></li>	
+					</ul>
+				</div>
+			<div class="sb-navbar sb-slide">
+					<div class="sb-toggle-left">
+						<div class="navicon-line"></div>
+						<div class="navicon-line"></div>
+						<div class="navicon-line"></div>
+					</div>
+		
+				</div>
+		</div>
+		<span class="toptext">Get an extra 10% off on select work space</span></div>
+	<div class="banner">
+		<div class="menu">
+			<div class="logoarea"><img src="/static/images/yourLogoHere.png" alt="" border="0" /></div>
+			<div class="menuarea" align="right" style="text-align:right;">
+				<div id="menu_btn"><a href="#" id="menu">List your place</a></div>
+				<div id="menu1_btn"><a href="javascript:void(0)" id="menu1" onclick="openRegisterModal();">Sign Up</a></div>
+				<div id="menu1_btn"><a href="javascript:void(0)" id="menu1" onclick="openLoginModal();">Login</a></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+<div class="tabbox" align="center">
+			<div id="explore_btn"><a href="#" id="explore_btn">EXPLORE&nbsp;&nbsp;&nbsp;<img src="/static/images/right-arrow.png" style="width:24px!important; height:24px!important;" /></a></div>
+			<div class="space3"></div>
+			<div class="space3"></div>
+			<ul id="tabs">
+            	<li class="active">STAY</li>
+	            <li>WORK</li>
+    	        <li>STORE</li>
+        	    <li>PLAY</li>
+            	<li>PARK</li>
+	        </ul>
+    	    <ul id="tab">
+        	    <li class="active">
+					<div style="width:60%; margin-left:20%;">
+						<div class="find_stay title1">FIND STAY</div>
+						<div id="find_stay"><a href="#" id="find_stay">HOURLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">DAILY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">WEEKLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">MONTHLY</a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="space"></div>
+					<div class="stay_dropdown">Where ?<br /><div class="space"></div>
+						<select>
+							<option selected="selected">Search by Destination</option>
+							<option>AUSTRALIA</option>
+						</select>
+					</div>
+					<div class="stay_textbox">Check in <br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_textbox">Check out<br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_button"><br /><a href="#" class="stay_button">SEARCH</a></div>
+					<div class="clear"></div>
+				</li>
+            	<li>
+                	<div style="width:60%; margin-left:20%;">
+						<div class="find_stay title1">FIND STAY</div>
+						<div id="find_stay"><a href="#" id="find_stay">HOURLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">DAILY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">WEEKLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">MONTHLY</a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="space"></div>
+					<div class="stay_dropdown">Where ?<br /><div class="space"></div>
+						<select>
+							<option selected="selected">Search by Destination</option>
+							<option>AUSTRALIA</option>
+						</select>
+					</div>
+					<div class="stay_textbox">Check in <br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_textbox">Check out<br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_button"><br /><a href="#" class="stay_button">SEARCH</a></div>
+					<div class="clear"></div>
+	            </li>
+            	<li>
+               		<div style="width:60%; margin-left:20%;">
+						<div class="find_stay title1">FIND STAY</div>
+						<div id="find_stay"><a href="#" id="find_stay">HOURLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">DAILY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">WEEKLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">MONTHLY</a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="space"></div>
+					<div class="stay_dropdown">Where ?<br /><div class="space"></div>
+						<select>
+							<option selected="selected">Search by Destination</option>
+							<option>AUSTRALIA</option>
+						</select>
+					</div>
+					<div class="stay_textbox">Check in <br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_textbox">Check out<br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_button"><br /><a href="#" class="stay_button">SEARCH</a></div>
+					<div class="clear"></div>
+	            </li>
+	            <li>
+					<div style="width:60%; margin-left:20%;">
+						<div class="find_stay title1">FIND STAY</div>
+						<div id="find_stay"><a href="#" id="find_stay">HOURLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">DAILY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">WEEKLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">MONTHLY</a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="space"></div>
+					<div class="stay_dropdown">Where ?<br /><div class="space"></div>
+						<select>
+							<option selected="selected">Search by Destination</option>
+							<option>AUSTRALIA</option>
+						</select>
+					</div>
+					<div class="stay_textbox">Check in <br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_textbox">Check out<br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_button"><br /><a href="#" class="stay_button">SEARCH</a></div>
+					<div class="clear"></div>
+	            </li>
+    	        <li>
+					<div style="width:60%; margin-left:20%;">
+						<div class="find_stay title1">FIND STAY</div>
+						<div id="find_stay"><a href="#" id="find_stay">HOURLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">DAILY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">WEEKLY</a></div>
+						<div id="find_stay"><a href="#" id="find_stay">MONTHLY</a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="space"></div>
+					<div class="stay_dropdown">Where ?<br /><div class="space"></div>
+						<select>
+							<option selected="selected">Search by Destination</option>
+							<option>AUSTRALIA</option>
+						</select>
+					</div>
+					<div class="stay_textbox">Check in <br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_textbox">Check out<br /><div class="space"></div><input type="text" value="YYY-MM-DD" /></div>
+					<div class="stay_button"><br /><a href="#" class="stay_button">SEARCH</a></div>
+					<div class="clear"></div>
+	            </li>
+        	</ul>
+			
+			<div class="space2"></div>
+			<div class="space"></div>
+			<div class="wraper toptext1" align="center">Rent work space at Rs. 1000/hour</div>
+		</div>
+		<img src="/static/images/banner.jpg" alt="" border="0" />
+	</div>
+	<div class="clear"></div>
+	<div class="matter">
+		<div class="wraper1 textmatter1" align="center">
+			<div class="space2"></div>
+			<span class="title2">Places Near You</span><br /><div class="space3"></div><div class="space1"></div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum interdum sem non lobortis. Sed aliquet magna a massa<br /><div class="space1"></div>condimentum, id condimentum ante dictum. Vivamus semper, mauris id rhoncus efficitur, sem lorem<br /><div class="space1"></div>feugiat magna, a condimentum sem enim at nisl
+			<div class="space2"></div>
+			
+			<div id="owl-demo2" class="owl-carousel margin-bottom">
+               <div class="item">
+			   	<img src="/static/images/box_01.jpg" alt="" border="0" />
+				<div class="greyarea textmatter2"><img src="/static/images/placeholder.png" style="width:16px!important; height:16px!important;" alt="" /> MUMBAI, Play Space&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+			   </div>
+              <div class="item">
+			   	<img src="/static/images/box_01.jpg" alt="" border="0" />
+				<div class="greyarea textmatter2"><img src="/static/images/placeholder.png" style="width:16px!important; height:16px!important;" alt="" /> MUMBAI, Play Space&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+			   </div>
+               <div class="item">
+			   	<img src="/static/images/box_01.jpg" alt="" border="0" />
+				<div class="greyarea textmatter2"><img src="/static/images/placeholder.png" style="width:16px!important; height:16px!important;" alt="" /> MUMBAI, Play Space&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+			   </div>
+               <div class="item">
+			   	<img src="/static/images/box_01.jpg" alt="" border="0" />
+				<div class="greyarea textmatter2"><img src="/static/images/placeholder.png" style="width:16px!important; height:16px!important;" alt="" /> MUMBAI, Play Space&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+			   </div>
+			   <div class="item">
+			   	<img src="/static/images/box_01.jpg" alt="" border="0" />
+				<div class="greyarea textmatter2"><img src="/static/images/placeholder.png" style="width:16px!important; height:16px!important;" alt="" /> MUMBAI, Play Space&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+			   </div>
+            </div>
+		</div>
+		<div class="advertisebanner"><img src="/static/images/deal_banner.jpg" alt="" border="0" /></div>
+		<div class="box3">
+			<img src="/static/images/star_01.jpg" alt="" border="0" />
+			<div class="yellowarea textmatter2" align="center"><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-2.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-2.png" style="width:16px!important; height:16px!important;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+		</div>
+		<div class="box3">
+			<img src="/static/images/star_01.jpg" alt="" border="0" />
+			<div class="yellowarea textmatter2" align="center"><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="images/star-2.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-2.png" style="width:16px!important; height:16px!important;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+		</div>
+		<div class="box3">
+			<img src="/static/images/star_01.jpg" alt="" border="0" />
+			<div class="yellowarea textmatter2" align="center"><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-1.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-2.png" style="width:16px!important; height:16px!important;" /><img src="/static/images/star-2.png" style="width:16px!important; height:16px!important;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/static/images/talk-bubbles.png" style="width:24px!important; height:24px!important;" alt="" /> 10</div>
+		</div>
+		<div class="clear"></div>
+		<div class="wraper1 textmatter1" align="center">
+			<div class="space1"></div>
+				<div class="space2"></div>
+			<span class="title3">How We Work</span><br /><div class="space3"></div><div class="space1"></div>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum interdum sem non lobortis. Sed aliquet magna a massa<br /><div class="space1"></div>condimentum, id condimentum ante dictum. Vivamus semper, mauris id rhoncus efficitur, sem lorem<br /><div class="space1"></div>feugiat magna, a condimentum sem enim at nisl
+			<div class="space2"></div>
+			<div class="space3"></div>
+			<div class="space3"></div>
+
+				<img src="/static/images/icon.jpg" alt="" border="0" />
+			<div class="space1">
+		</div>
+	</div>
+	<div class="advertisebanner"><a href="#" target="_self"><img src="/static/images/post_img.jpg" alt="" border="0" /></a></div>
+	<div class="subscribe textmatter3" align="center">
+		<div class="wraper1">
+			<div class="space1"></div>
+			<span class="title3">Subscribe To Our Newsletter</span><br /><div class="space1"></div>
+			Enter your email address and we will send you our regular promotional emails packed with specials<br /><div class="space1"></div>offers, great deals, and huge discounts.<br /><div class="space1"></div>
+			<div class="wraper2">
+				<div class="subs"><input type="text" /></div>
+				<div class="subsbtn">
+					<div id="submit_btn"><a href="#" id="submit_btn">SUBSCRIBE</a></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="space1"></div>
+		</div>
+	</div>
+	<div class="topbar bottomtext" align="center">&copy; 2016 Share A Space. All Rights Reserved.</div>
+</div>
+</div>
+
+		 <div class="modal fade login" id="loginModal">
+		      <div class="modal-dialog login animated">
+    		      <div class="modal-content">
+    		         <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Login with</h4>
+                    </div>
+                    <div class="modal-body">  
+                        <div class="box">
+                             <div class="content">
+                                <div class="social">
+                                     <a id="google_login" class="circle google" href="{% url 'social:begin' 'google-oauth2' %}">
+                                        <i class="fa fa-google-plus fa-fw"></i>
+                                    </a>
+                                    <a id="facebook_login" class="circle facebook" href="{% url 'social:begin' 'facebook' %}">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                    </a>
+                                </div>
+                                <div class="division">
+                                    <div class="line l"></div>
+                                      <span>or</span>
+                                    <div class="line r"></div>
+                                </div>
+                                <div class="error"></div>
+                                <div class="form loginBox">
+                                    <form method="post" action=" " accept-charset="UTF-8" id='loginform' name="loginform" role="form">{% csrf_token %}
+                                    <input id="email" class="form-control" type="text" placeholder="Email" name="email" onchange="email_validate(this.value);" required>
+				    <div class="status" id="status"></div>
+                                    <input id="password" class="form-control" type="password" placeholder="Password" name="password"   required >
+                                    <input class="btn btn-default btn-login" name="loginform" type="submit" value="Login">
+                                    </form>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="box">
+                            <div class="content registerBox" style="display:none;">
+                             <div class="form">
+                                <form method="post" html="{:multipart=>true}" data-remote="true" id='regform' name='regform' action=" " accept-charset="UTF-8">{% csrf_token %}
+				 <input class="form-control" type="text" name="firstname" placeholder="First Name" id = "firstname" onkeyup = "Validate(this)" required /> 
+				 <input class="form-control" type="text" name="lastname" id = "lastname"  onkeyup = "Validate(this)" placeholder="Last Name" />
+                                <input id="signupemail" class="form-control" type="text" placeholder="Email" name="email" onchange="email_validate(this.value);" required>
+                                <input id="password1" class="form-control" type="password" placeholder="Password" name="password1" minlength="6" maxlength="16" required>
+                                <input id="password2" class="form-control" type="password" placeholder="Repeat Password" name="password2" minlength="6" maxlength="16" onkeyup="checkPass(); return false;" required>
+                        <span id="confirmMessage" class="confirmMessage"></span>
+
+				<input required type="text" name="phone" id="phone" placeholder="Mobile No" class="form-control" maxlength="28" onkeyup="validatephone(this);" placeholder="not used for marketing"/>
+			
+
+			 
+                                <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="forgot login-footer">
+                            <span>Looking to 
+                                 <a href="javascript: showRegisterForm();">create an account</a>
+                            ?</span>
+                        </div>
+                        <div class="forgot register-footer" style="display:none">
+                             <span>Already have an account?</span>
+                             <a href="javascript: showLoginForm();">Login</a>
+                        </div>
+                    </div>        
+    		      </div>
+		      </div>
+		  </div>
+    </div>			
+<!--slider-->
+
+<script type="text/javascript" src="/static/owl-carousel/owl.carousel.js"></script>  
+<script type="text/javascript">
+         jQuery(document).ready(function($) {	  
+           $("#owl-demo").owlCarousel({		
+           	navigation : true,
+           	slideSpeed : 300,
+           	paginationSpeed : 400,
+           	autoPlay : true,
+           	singleItem:true
+           });
+           $("#owl-demo2").owlCarousel({
+        		items : 3,
+           	lazyLoad : true,
+           	autoPlay : true,
+           	navigation : true,
+           	pagination : false
+           });
+         });	 
+</script>
+<!--slider-->	  
+<script src="/static/js/slidebars.min.js"></script>
+<script>
+    /*(function($) {
+        $(document).ready(function() {
+            $.slidebars();
+                });
+        }) (jQuery);*/
+$(window).on('load', function(e){
+  if (window.location.hash == '#_=_') {
+    window.location.hash = ''; // for older browsers, leaves a # behind
+    history.pushState('', document.title, window.location.pathname); // nice and clean
+    e.preventDefault(); // no page reload
+  }
+})
+
+  $('#loginform').submit(function(event) {
+// You gotta include the csrf_token in your post data
+event.preventDefault();
+var email=$('#signupemail').val();
+var firstname=$('#firstname').val();
+var lastname=$('#lastname').val();
+var phone=$('#phone').val();
+var password1=$('#password1').val();
+
+   $.ajax({
+        url: '/ajax/signup/',
+        data: {
+          'email': email,
+	  'firstname': firstname,
+	  'lastname': lastname,
+	  'phone': phone,
+	  'password1': password1,
+        },
+        dataType: 'json',
+        success: function (data) {
+          if (data.is_taken) {
+            alert("A user with this username already exists.");
+          }
+	  else if (data.ok) {
+            alert("A user is ok.");
+	    setTimeout(function() {$('#loginModal').modal('hide');}, 50);
+	    document.getElementById("regform").reset();
+          }
+	
+        }
+      });
+});
+
+  $('#regform').submit(function(event) {
+// You gotta include the csrf_token in your post data
+event.preventDefault();
+var email=$('#email').val();
+var password=$('#password').val();
+
+   $.ajax({
+        url: '/ajax/signup/',
+        data: {
+          'email': email,
+	  
+	  'password1': password,
+        },
+        dataType: 'json',
+        success: function (data) {
+          if (data.is_taken) {
+            alert("A user with this username already exists.");
+          }
+	  else if (data.ok) {
+            alert("A user is ok.");
+	    setTimeout(function() {$('#loginModal').modal('hide');}, 50);
+	    document.getElementById("regform").reset();
+          }
+	
+        }
+      });
+});
+
+</script>
+
+    
+</body>
+</html>

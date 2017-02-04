@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('Lato-Regular.eot');
+  src: url('Lato-Regular.woff2') format('woff2'),
+       url('Lato-Regular.woff') format('woff'),
+       url('Lato-Regular.ttf') format('truetype'),
+       url('Lato-Regular.svg#Lato-Regular') format('svg'),
+       url('Lato-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('Lato-Bold.woff') format('woff'),
+       url('Lato-Bold.ttf') format('truetype'),
+       url('Lato-Bold.svg#Lato-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Bold_0';
+  src: url('Lato-Bold_0.eot');
+  src: url('Lato-Bold_0.woff2') format('woff2'),
+       url('Lato-Bold_0.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.toptext1					{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+
+
+
+
+
+.textmatter2				{font-family: 'Lato-Bold_0'; font-size:16px; color:#fff; font-style:normal; line-height:2em;}
+.textmatter3				{font-family: 'Lato-Regular'; font-size:14px; color:#fff; font-style:normal; line-height:2em;}
+
+#submit_btn a				{ width:100%!important; background:#fcb30d; font-family: 'Lato-Regular'; color:#404242; padding:10px;}
+#submit_btn a:hover			{ background:#666666; color:#FFFFFF;}
+
+#explore_btn a				{ width:100%!important; background:#fcb30d; font-family: 'Lato-Regular'; color:#404242; padding:20px 30px; font-size:15px; font-weight:bold;}
+#explore_btn a:hover		{ background:#666666; color:#FFFFFF;}
+
+#started_btn a				{ width:100%!important; background:#666666; font-family: 'Lato-Regular'; color:#fff; padding:20px 30px; font-size:15px; font-weight:bold;}
+#started_btn a:hover		{ background:#fcb30d;}
+
+#menu_btn a					{font-family: 'Lato-Regular'; color:#FFFFFF; font-size:16px; padding:10px 20px; border:4px solid #fcb30d; float:left; font-weight:bold;}
+#menu_btn a:hover			{ background:#fcb30d; color:#FFFFFF;}
+#menu1_btn a				{font-family: 'Lato-Regular'; color:#FFFFFF; font-size:16px; padding:10px 20px; float:left; font-weight:bold; border:4px solid none; }
+#menu1_btn a:hover			{ background:#fcb30d; color:#FFFFFF; border:4px solid #fcb30d; }
+
+
+
+#find_stay a				{ font-family: 'Lato-Regular'; color:#404242; font-size:16px; padding:10px 20px; float:left; font-weight:bold; border-top:4px solid #404242; margin:0 10px;}
+#find_stay a:hover			{ color:#00c4b0; border-top:4px solid #00c4b0; }
+.find_stay					{ font-family: 'Lato-Regular'; color:#404242; font-size:16px; padding:10px 20px; float:left; font-weight:bold; margin:0 10px;}
+
+div.stay_dropdown			{ width: 32%; float:left; margin:0 2%; border:none!important;}
+div.stay_dropdown select	{ width:100%!important; height:auto; padding:8px; background:#c5c5c5; border:none!important;}
+
+div.stay_textbox			{ width: 16%; float:left; margin:0 2%; border:none!important;}
+div.stay_textbox input		{ width:100%!important; height:auto; padding:8px; background:#c5c5c5; border:none!important;}
+
+div.stay_button a			{ width: 15%; float:left; margin:0 2%; background:#fcb30d; color:#404242; border:none!important; padding:1%;}
+div.stay_button a:hover		{ background:#404242; color:#fcb30d; border:none!important;}
+div.item					{ width:94%!important; margin:3%;}
+.menufont					{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; margin:0 10px; float:left;}
+#menufont a					{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; margin:0 10px; float:left;}
+#menufont a:hover			{ color:#FFFFFF;}
+
+@media only screen and (min-width: 240px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:25px; color:#434344; font-style:normal; font-weight:bold;}
+.title3						{font-family: 'Lato-Regular'; font-size:25px; color:#04c5b1; font-style:normal; font-weight:bold;}
+.title4						{font-family: 'Lato-Regular'; font-size:20px; color:#434344; font-style:normal; font-weight:bold;}
+.toptext					{font-family: 'Lato-Bold'; font-size:12px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:13px; color:#434344; font-style:normal; line-height:1.5em;}
+}
+
+@media only screen and (min-width: 320px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:25px; color:#434344; font-style:normal; font-weight:bold;}
+.title3						{font-family: 'Lato-Regular'; font-size:25px; color:#04c5b1; font-style:normal; font-weight:bold;}
+.title4						{font-family: 'Lato-Regular'; font-size:20px; color:#434344; font-style:normal; font-weight:bold;}
+.toptext					{font-family: 'Lato-Bold'; font-size:12px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:13px; color:#434344; font-style:normal; line-height:1.5em;}
+}
+
+@media only screen and (min-width: 340px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:25px; color:#434344; font-style:normal; font-weight:bold;}
+.title3						{font-family: 'Lato-Regular'; font-size:25px; color:#04c5b1; font-style:normal; font-weight:bold;}
+.title4						{font-family: 'Lato-Regular'; font-size:20px; color:#434344; font-style:normal; font-weight:bold;}
+.toptext					{font-family: 'Lato-Bold'; font-size:12px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:13px; color:#434344; font-style:normal; line-height:1.5em;}
+
+}
+
+@media only screen and (min-width: 450px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:25px; color:#434344; font-style:normal; font-weight:bold;}
+.title3						{font-family: 'Lato-Regular'; font-size:25px; color:#04c5b1; font-style:normal; font-weight:bold;}
+.title4						{font-family: 'Lato-Regular'; font-size:20px; color:#434344; font-style:normal; font-weight:bold;}
+.toptext					{font-family: 'Lato-Bold'; font-size:14px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:13px; color:#434344; font-style:normal; line-height:1.5em;}
+}
+
+@media only screen and (min-width: 480px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:25px; color:#434344; font-style:normal; font-weight:bold;}
+.title3						{font-family: 'Lato-Regular'; font-size:25px; color:#04c5b1; font-style:normal; font-weight:bold;}
+.title4						{font-family: 'Lato-Regular'; font-size:20px; color:#434344; font-style:normal; font-weight:bold;}
+.toptext					{font-family: 'Lato-Bold'; font-size:14px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:13px; color:#434344; font-style:normal; line-height:1.5em;}
+}
+
+@media only screen and (min-width: 600px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal;}
+.title3						{font-family: 'Lato-Regular'; font-size:50px; color:#04c5b1; font-style:normal;}
+.title4						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal; font-weight:normal; line-height:53px;}
+.toptext					{font-family: 'Lato-Bold'; font-size:18px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:18px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; line-height:2em;}
+}
+
+@media only screen and (min-width: 768px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal;}
+.title3						{font-family: 'Lato-Regular'; font-size:50px; color:#04c5b1; font-style:normal;}
+.title4						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal; font-weight:normal; line-height:53px;}
+.toptext					{font-family: 'Lato-Bold'; font-size:18px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:18px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; line-height:2em;}
+}
+
+@media only screen and (min-width: 1024px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal;}
+.title3						{font-family: 'Lato-Regular'; font-size:50px; color:#04c5b1; font-style:normal;}
+.title4						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal; font-weight:normal; line-height:53px;}
+.toptext					{font-family: 'Lato-Bold'; font-size:18px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:18px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; line-height:2em;}
+}
+
+@media only screen and (min-width: 1280px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal;}
+.title3						{font-family: 'Lato-Regular'; font-size:50px; color:#04c5b1; font-style:normal;}
+.title4						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal; font-weight:normal; line-height:53px;}
+.toptext					{font-family: 'Lato-Bold'; font-size:18px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:18px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; line-height:2em;}
+}
+
+@media only screen and (min-width: 1400px)
+{
+.title1						{font-family: 'Lato-Bold'; font-size:18px; color:#404242; line-height:18px; font-style:normal; font-weight:800;}
+.title2						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal;}
+.title3						{font-family: 'Lato-Regular'; font-size:50px; color:#04c5b1; font-style:normal;}
+.title4						{font-family: 'Lato-Regular'; font-size:50px; color:#434344; font-style:normal; font-weight:normal; line-height:53px;}
+.toptext					{font-family: 'Lato-Bold'; font-size:18px; color:#00645a; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext					{font-family: 'Lato-Bold'; font-size:18px; color:#84fff2; line-height:18px; font-style:normal; font-weight:800;}
+.bottomtext1				{font-family: 'Lato-Bold'; font-size:14px; color:#84fff2; font-style:normal; font-weight:normal;}
+.textmatter1				{font-family: 'Lato-Regular'; font-size:14px; color:#434344; font-style:normal; line-height:2em;}
+}
+
+@media print
+{
+
+}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block body %}
+<style type="text/css">
+
+</style>
+   <!--=== Fixed navbar ===-->
+    <header>
+      <div class="navbar custome-nav" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/static/img/logo.png"></a>
+          </div>
+          <div class="navbar-collapse collapse ">
+            <!-- Left nav -->
+            <ul class="nav navbar-nav" data-smartmenus-id="">
+              <li class="active page-scroll" ><a href="#">Home</a></li>
+              <li class="page-scroll"><a href="#about">About Us</a></li>
+              <li class="page-scroll"><a href="#contact"> Contact Us </a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--=== /fixed nav bar ===-->
+  <!--=== banner Start ===-->
+    <div class="banner-sec">
+      <div class="carousel-caption">
+        <h1>Virtual </h1>
+        <h2>Pujari and Vedic <br> community</h2>
+        <h3 style="color:#b74c62">Invalid Page URL or Token is Invalid</h3>
+        <div class="clearfix">
+          <div class="f-left"><a href="#" class="btn border-btn-facebook"><i class="fa fa-facebook"></i>
+            Please Type valid url</a>
+          </div>
+        </div>
+      </div>
+       <img alt="" src="/static/img/slide001.jpg" class="img-responsive">
+    </div>
+
+{% endblock  %}

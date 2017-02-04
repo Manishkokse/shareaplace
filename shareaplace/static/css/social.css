@@ -1,0 +1,51 @@
+/* CSS Document */
+.icons	{ float:left; width:100%; text-align:center;}
+.icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+ 
+.icons a.twitter { background: url("../images/twitter.png") left top no-repeat; }
+.icons a.dribbble { background: url("../images/dribbble.png") left top no-repeat; }
+.icons a.rss { background: url("../images/rss.png") left top no-repeat; }
+.icons a.pinterest { background: url("../images/pinterest.png") left top no-repeat; }
+.icons a.digg { background: url("../images/digg.png") left top no-repeat; }
+.icons a.flickr { background: url("../images/flickr.png") left top no-repeat; }
+.icons a.forrst { background: url("../images/forrst.png") left top no-repeat; }
+.icons a.vimeo { background: url("../images/vimeo.png") left top no-repeat; }
+.icons a.reddit { background: url("../images/reddit.png") left top no-repeat; }
+.icons a.linkedin { background: url("../images/linkedin.png") left top no-repeat; }
+.icons a.facebook { background: url("../images/facebook.png") left top no-repeat; }
+.icons a.paypal { background: url("../images/paypal.png") left top no-repeat; }
+.icons a.stumbleupon { background: url("../images/stumbleupon.png") left top no-repeat; }
+.icons a.email { background: url("../images/email.png") left top no-repeat; }
+.icons a.deviantart { background: url("../images/deviantart.png") left top no-repeat; }
+.icons a.netvibes { background: url("../images/netvibes.png") left top no-repeat; }
+.icons a.yahoo { background: url("../images/yahoo.png") left top no-repeat; }
+.icons a.github { background: url("../images/github.png") left top no-repeat; }
+.icons a.addthis { background: url("../images/addthis.png") left top no-repeat; }
+.icons a.behance { background: url("../images/behance.png") left top no-repeat; }
+.icons a.blogger { background: url("../images/blogger.png") left top no-repeat; }
+.icons a.slashdot { background: url("../images/slashdot.png") left top no-repeat; }
+.icons a.technorati { background: url("../images/technorati.png") left top no-repeat; }
+.icons a.googleplus { background: url("../images/googleplus.png") left top no-repeat; }
+.icons a.apple { background: url("../images/apple.png") left top no-repeat; }
+.icons a.myspace { background: url("../images/myspace.png") left top no-repeat; }
+.icons a.sharethis { background: url("../images/sharethis.png") left top no-repeat; }
+.icons a.yelp { background: url("../images/yelp.png") left top no-repeat; }
+.icons a.delicious { background: url("../images/delicious.png") left top no-repeat; }
+.icons a.lastfm { background: url("../images/lastfm.png") left top no-repeat; }
+.icons a.youtube { background: url("../images/youtube.png") left top no-repeat; }
+.icons a.skype { background: url("../images/skype.png") left top no-repeat; }
+.icons a.tumblr { background: url("../images/tumblr.png") left top no-repeat; }
+.icons a.aim { background: url("../images/aim.png") left top no-repeat; }
+.icons a.google { background: url("../images/google.png") left top no-repeat; }
+ 
+.icons a:hover { background-position: left -34px; }
